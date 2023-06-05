@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #company_images_body {
+            padding: 0px;
+            margin: 0px auto;
+            position: relative;
+        }
+
+        .image {
+            width: 200px;
+            height: 70px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image img {
+            width: 150px;
+            height: 50px;
+            box-sizing: border-box;
+        }
+
+        #transformer {
+            animation: slide 40s linear infinite;
+            margin: 20px 0px;
+            z-index: 1;
+        }
+
+        #transformer2 {
+            animation: slide 45s linear infinite;
+            margin: 20px 0px;
+            z-index: 1;
+        }
+
+        #transformer3 {
+            animation: slide 35s linear infinite;
+            margin: 20px 0px;
+            z-index: 1;
+        }
+
+        #slideshow_box {
+            width: 1000px;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #slideshow_box::before,
+        #slideshow_box::after {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+            width: 10%;
+            height: 100%;
+            content: '';
+            position: absolute;
+            z-index: 20;
+        }
+        #slideshow_box::before {
+            top: 0px;
+            left: 0px;
+        }
+        #slideshow_box::after {
+            top: 0px;
+            right: 0px;
+            transform: rotateZ(180deg);
+        }
+
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0px);
+            }
+
+            100% {
+                transform: translateX(-2036px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="company_images_body">
+
+        <div id="slideshow_box">
+
+            <div id="transformer" style="display: flex; width: 4072px;">
+                <div id="images" style="width: 2036px; display: flex;">
+                    <div class="image">
+                        <img style="height: auto;width: 100px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Volvo-logo-2014-1920x1080.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Walmart_logo.svg.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 180px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/company3-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 100px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/download-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/huawei-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 160px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(1).png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 170px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(2).png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 140px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 150px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(3).png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 150px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(4).png?raw=true"
+                            alt="">
+                    </div>
+                </div>
+                <div id="images2" style="width: 2036px;display: flex;">
+                    <div class="image">
+                        <img style="height: auto;width: 100px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Volvo-logo-2014-1920x1080.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Walmart_logo.svg.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 180px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/company3-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 100px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/download-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/huawei-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 160px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(1).png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 170px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(2).png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 140px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 150px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(3).png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 150px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/image-removebg-preview%20(4).png?raw=true"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="transformer2" style="display: flex; width: 4072px;">
+                <div id="images" style="width: 2036px;display: flex;">
+                    <div class="image">
+                        <img style="height: auto;width: 100px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/johnsons-logo-vector-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 120px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/oracle.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 110px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/png-clipart-gsk-logo-gsk-logo-icons-logos-emojis-iconic-brands-thumbnail-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 110px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/png-transparent-lacoste-logo-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/png-transparent-logo-carrefour-market-brand-google-drive-logo-text-logo-shopping-centre-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 140px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/pngimg.com%20-%20tesla_logo_PNG21.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 150px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/saudi-aramco-logo-0.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 80px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/shell-logo-0.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/ticketmaster-5-logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 70px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/unilever-logo-01.png?raw=true"
+                            alt="">
+                    </div>
+                </div>
+                <div id="images2" style="width: 2036px;display: flex;">
+                    <div class="image">
+                        <img style="height: auto;width: 100px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/johnsons-logo-vector-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 120px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/oracle.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 110px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/png-clipart-gsk-logo-gsk-logo-icons-logos-emojis-iconic-brands-thumbnail-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 110px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/png-transparent-lacoste-logo-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/png-transparent-logo-carrefour-market-brand-google-drive-logo-text-logo-shopping-centre-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 140px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/pngimg.com%20-%20tesla_logo_PNG21.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 150px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/saudi-aramco-logo-0.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 80px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/shell-logo-0.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 130px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/ticketmaster-5-logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="height: auto;width: 70px;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/unilever-logo-01.png?raw=true"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="transformer3" style="display: flex; width: 4072px;">
+                <div id="images" style="width: 2036px;display: flex;">
+                    <div class="image">
+                        <img style="width: 80px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/1200px-P&G_logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/584290c7a6515b1e0ad75ac4.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/AMD_Logo.svg.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Airbnb_Logo-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 90px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Cisco-logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Ford-Motor-Company-Logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/IBM_logo.svg.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 120px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Junaid_jamshed-logo-D0EF421943-seeklogo.com.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 110px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Lenovo-Logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 130px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Nordstrom_Logo_2019.png?raw=true"
+                            alt="">
+                    </div>
+                </div>
+                <div id="images2" style="width: 2036px;display: flex;">
+                    <div class="image">
+                        <img style="width: 80px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/1200px-P&G_logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/584290c7a6515b1e0ad75ac4.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/AMD_Logo.svg.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Airbnb_Logo-removebg-preview.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 90px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Cisco-logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Ford-Motor-Company-Logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 100px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/IBM_logo.svg.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 120px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Junaid_jamshed-logo-D0EF421943-seeklogo.com.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 110px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Lenovo-Logo.png?raw=true"
+                            alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width: 130px; height: auto;"
+                            src="https://github.com/muazzambhatti/trunkeye-image-repository/blob/main/Nordstrom_Logo_2019.png?raw=true"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
